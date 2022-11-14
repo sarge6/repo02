@@ -8,6 +8,9 @@ public class Class1 {
     public String get02() {
         return this.getClass().getCanonicalName() + ".get02()-c03-b01";
     }
+    public String get03(){
+        return this.getClass().getCanonicalName() + ".get03()-c04-master";
+    }
     public static void main(String[] args) {
         Class1 obj = new Class1();
         System.out.println( obj.get01()+ "\n" + obj.get02() );
