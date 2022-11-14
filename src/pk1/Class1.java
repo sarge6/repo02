@@ -13,6 +13,6 @@ public class Class1 {
     }
     public static void main(String[] args) {
         Class1 obj = new Class1();
-        System.out.println( obj.get01()+ "\n" + obj.get02() );
+        System.out.println( obj.get01()+ "\n" + obj.get02() + "\n" + obj.get03() );
     }
 }
